@@ -1,0 +1,23 @@
+<svg width="215" height="134" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+ <defs>
+  <radialGradient spreadMethod="pad" id="svg_14">
+   <stop offset="0" stop-color="#fff"/>
+   <stop offset="1" stop-color="#000000"/>
+  </radialGradient>
+ </defs>
+ <g>
+  <title>background</title>
+  <rect fill="url(#svg_14)" id="canvas_background" height="136" width="217" y="-1" x="-1"/>
+  <g display="none" overflow="visible" y="0" x="0" height="100%" width="100%" id="canvasGrid">
+   <rect fill="url(#gridpattern)" stroke-width="0" y="0" x="0" height="100%" width="100%"/>
+  </g>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <rect rx="6" stroke="#000" id="svg_4" height="129" width="210" y="2.5" x="2.5" stroke-width="5" fill="#fff"/>
+  <path id="svg_9" d="m4.928571,4.142857" opacity="0.5" fill-opacity="null" stroke-opacity="null" stroke-width="5" stroke="#000" fill="none"/>
+  <path id="svg_12" d="m4.357143,4.714286" opacity="0.5" fill-opacity="null" stroke-opacity="null" stroke-width="5" stroke="#000" fill="none"/>
+  <path id="svg_13" d="m4.92857,4.14286c0,0 102.28572,62.28571 102.28572,62.85714c0,0.57143 103.42857,-62.85714 103.42857,-62.85714" fill-opacity="null" stroke-opacity="null" stroke-width="5" stroke="#000" fill="none"/>
+ </g>
+</svg>

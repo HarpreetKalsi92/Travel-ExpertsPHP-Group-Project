@@ -1,0 +1,346 @@
+/*Coded by Raman Kaur*/
+html{
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	min-height: 100%;
+}
+body {
+	background-image:linear-gradient(rgba(0,0,0,0),rgba(0,0,0,.25),rgba(255,255,255,1)),url("../images/travel-background-wallpaper.jpg"); background-repeat: none;
+	background-size: cover;
+}
+h1 { 
+	font-family: "Copperplate Gothic Light"; font-size: 35px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 38.5px; 
+}
+img {
+	border-radius: 16px;
+}
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}	
+
+li {
+	float: left;
+}
+
+.vacpkg {
+	border: 1px solid black;
+	border-collapse: collapse;
+	background-color: rgba(255,255,255,0.5);
+	
+	}
+	
+.vacpkgcell {
+	border: 1px solid black;
+	border-collapse: collapse;
+	
+	}
+
+a:link, a:visited {
+	display: block;
+	width: 50px;
+	margin-left: 10px;
+	margin-right: 20px;
+	font-weight: bold;
+	color: #FFFFFF;
+	background-color; #98bf21;
+	text-align: center;
+	padding: 4px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+a:hover, a:active {
+	background-color: #7a991a;
+}
+#wrapper {
+	width: 70%;
+	float: center;
+	overflow:auto;
+}
+div#photodiv {	
+	float: right;
+	border: 3px solid black;
+	border-radius: 8px;
+	max-width: 600px;
+	height: 300px;
+}
+
+div#photodiv img {
+	width: 100%;
+	border-radius: 8px;
+}
+
+#photoTable {
+	font-family: arial;
+	padding: 5px;
+	border-collapse: collapse;
+	border: 3px solid black;
+	border-radius: 8px;
+	background-color: rgba(255,255,255,0.7);
+	float: left;
+}
+
+.mapouter {
+	display: inline-block;
+}
+
+#wrapper {
+	text-align:center;
+	margin: auto;
+}
+
+.form-style-8{
+	font-family: 'Open Sans Condensed', arial, sans;
+	width: 500px;
+	padding: 30px;
+	background: #FFFFFF;
+	margin: 50px auto;
+	box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
+	-moz-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
+	-webkit-box-shadow:  0px 0px 15px rgba(0, 0, 0, 0.22);
+
+}
+.form-style-8 h2{
+	background: #4D4D4D;
+	text-transform: uppercase;
+	font-family: 'Open Sans Condensed', sans-serif;
+	color: #797979;
+	font-size: 18px;
+	font-weight: 100;
+	padding: 20px;
+	margin: -30px -30px 30px -30px;
+}
+.form-style-8 input[type="text"],
+.form-style-8 input[type="date"],
+.form-style-8 input[type="datetime"],
+.form-style-8 input[type="email"],
+.form-style-8 input[type="number"],
+.form-style-8 input[type="double"],
+.form-style-8 input[type="search"],
+.form-style-8 input[type="time"],
+.form-style-8 input[type="url"],
+.form-style-8 input[type="password"],
+.form-style-8 textarea,
+.form-style-8 select 
+{
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	outline: none;
+	display: block;
+	width: 100%;
+	padding: 7px;
+	border: none;
+	border-bottom: 1px solid #ddd;
+	background: transparent;
+	margin-bottom: 10px;
+	font: 16px Arial, Helvetica, sans-serif;
+	height: 45px;
+}
+.form-style-8 textarea{
+	resize:none;
+	overflow: hidden;
+}
+.form-style-8 input[type="button"], 
+.form-style-8 input[type="submit"],
+.form-style-8 input[type="reset"]{
+	-moz-box-shadow: inset 0px 1px 0px 0px #45D6D6;
+	-webkit-box-shadow: inset 0px 1px 0px 0px #45D6D6;
+	box-shadow: inset 0px 1px 0px 0px #45D6D6;
+	background-color: #2CBBBB;
+	border: 1px solid #27A0A0;
+	display: inline-block;
+	cursor: pointer;
+	color: #FFFFFF;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 14px;
+	padding: 8px 18px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+.form-style-8 input[type="button"]:hover, 
+.form-style-8 input[type="submit"]:hover {
+	background:linear-gradient(to bottom, #34CACA 5%, #30C9C9 100%);
+	background-color:#34CACA;
+}
+
+/* End of code from https://www.sanwebe.com/2014/08/css-html-forms-designs */
+
+.tooltip{
+	position:inherit;
+	right: 16em;
+	top: -2.7em;
+    margin:5px;
+    width:200px;
+    height:50px;
+    border:1px solid black;
+	background-color: rgba(255,255,255,0.7);
+	
+    display:none;
+}
+
+.gallery img:hover{
+ 	filter: grayscale(0);
+ 	transform: scale(1.1);
+}
+.location{
+ 	margin-left: 800px;
+ 	margin-top: -160px;
+ 	overflow: hidden;
+}
+.location input[type="text"],.location input[type="password"]{
+ 	border:0;
+ 	background:blue;
+ 	border:2px solid white;
+ 	outline:none;
+ 	color:black;
+ 	border-radius: 24px;
+ 	transition: 0.25s;
+}
+.wrapper1{
+    position:absolute;
+    top:70%;
+    left:50%;
+    transform:translate(-50%,-50%);
+}
+.contact-us{
+    width:100%;
+    max-width: 500px;
+    height:auto;
+    background:rgba(0,0,0,0.7);
+    padding:40px 50px;
+    border-radius:5px;
+}
+.title{
+    font-size:2em;
+    line-height:1.25em;
+    text-align:center;
+    text-transform:uppercase; 
+    font-weight:900;
+    letter-spacing:2px;
+    color:#ffc107;
+    padding-bottom:15px;
+}
+.input-fields {
+    padding: 0 30px;
+}
+
+.input-fields .items{
+    width:100%;
+    padding-bottom: 15px;
+}
+.input-fields .items .label{
+    display:block;
+    font-size:1em;
+    color:#ffecb3;
+    text-transform: capitalize;
+    padding-bottom: 5px;
+}
+.input-fields .items .input{
+    background:transparent;
+    border:0;
+    border:1px solid #ffecb3;
+    width:100%;
+    padding:8px 10px;
+    font-size:1em;
+    color:#ffecb3;
+    border-radius:3px;
+}
+.btn{
+    margin:0 30px;
+    background:white;
+    color:blue;
+    font-size:1.25em;
+    padding:10px 0;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight:bold;
+    border-radius:5px;
+    cursor:pointer;
+}   
+   
+p{
+   	font-family: cursive;
+}
+
+.division{
+   	font-family:cursive;
+   	color:black;
+   	margin-left: 90px;
+   	font-size: 22px;
+}
+
+.loader{
+	font-family: 'Arapey', serif;
+ 	font-size:39px;
+ 	text-align: center;
+ 	color:white;
+}
+.agentdata{
+	font-family: 'Arapey', serif;
+ 	font-size:22px;
+ 	margin:66px;
+ padding-left:28px;
+margin-top: 16px;
+color:white;
+	background-color:rgba(0,0,0,0.4);
+	display:inline-block;
+}
+.mapouter{
+	float:right;
+	margin:39px;
+}
+.agencyaddress{
+		font-family: 'Arapey', serif;
+ 	font-size:22px;
+ 	margin:66px;
+ padding-left:28px;
+margin-top: 16px;
+color:white;
+	background-color:rgba(0,0,0,0.4);
+	display:inline-block;
+}
+div.agencyaddress{
+	width: 500px;
+	height: 400px;
+	overflow: scroll;
+}
+
+.colorchange{
+animation:colorchangethapa 1s infinite;
+}
+    
+@keyframes colorchangethapa{
+    0%{color:red;}
+   	25%{color:#bf55ec;}
+   	50%{color:white;}
+   	100%{color:#bf55ec;}
+}
+.relation{
+	margin-left: 1250px;
+	margin-top:-59px;
+	font-family:'Railway',sans-serif;
+}
+
+.agentdata{
+	font-family: 'Arapey', serif;
+ 	font-size:22px;
+ 	margin:66px;
+	padding-left:28px;
+	margin-top: 16px;
+	color:white;
+	background-color:rgba(0,0,0,0.4);
+	display:inline-block;
+}
+.mapouter{
+	float:right;
+}
+h3{
+	font-family: 'Arapey', serif;
+ 	font-size:39px;
+ 	text-align: center;
+ 	color:white;
+}	

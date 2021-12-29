@@ -1,0 +1,73 @@
+html{
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	min-height: 100%;
+}
+body {
+	background-image:linear-gradient(rgba(0,0,0,0),rgba(0,0,0,.25),rgba(255,255,255,1)),url("../images/travel-background-wallpaper.jpg"); background-repeat: none;
+	background-size: cover;
+}
+h1 { 
+	font-family: "Copperplate Gothic Light"; font-size: 35px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 38.5px; 
+}
+img {
+	border-radius: 16px;
+}
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}	
+li {
+	float: left;
+}
+a:link, a:visited {
+	display: block;
+	width: 50px;
+	margin-left: 10px;
+	margin-right: 20px;
+	font-weight: bold;
+	color: #FFFFFF;
+	background-color; #98bf21;
+	text-align: center;
+	padding: 4px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+a:hover, a:active {
+	background-color: #7a991a;
+}
+#wrapper {
+	width: 70%;
+	float: center;
+	overflow:auto;
+}
+div#photodiv {	
+	float: right;
+	border: 3px solid black; /* Gray border */
+	border-radius: 8px;  /* Rounded border */
+	max-width: 600px; /* Set a small width */
+	height: 300px;
+}
+
+div#photodiv img {
+	width: 100%;
+	border-radius: 8px;
+}
+
+#photoTable {
+	font-family: arial;
+	padding: 5px;
+	border-collapse: collapse;
+	border: 3px solid black;
+	border-radius: 8px;
+	background-color: rgba(255,255,255,0.7);
+	float: left;
+}
+
+#linkTable, #linkCell {
+	border: 1px solid black;
+	border-collapse: collapse;
+}
